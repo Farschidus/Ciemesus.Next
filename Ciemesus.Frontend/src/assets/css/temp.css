@@ -1,0 +1,31 @@
+.tempYellowButton {
+    display: inline-block;
+    font-weight: 600;
+    background-color: #fecd01;
+    color: #002e49;
+    border-radius: 30px;
+    width: 100px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 20px;
+    white-space: nowrap;
+    line-height: 10px;
+    text-overflow: ellipsis;
+}
+
+.tempNavyButton {
+    font-weight: 600;
+    background-color: #002e49;
+    color:#fecd01;
+    border-radius: 30px;
+    width: 60px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 20px;
+    white-space: nowrap;
+    line-height: 10px;
+    text-overflow: ellipsis;
+    text-align: center;
+    float: right;
+    margin-left: 5px;
+}

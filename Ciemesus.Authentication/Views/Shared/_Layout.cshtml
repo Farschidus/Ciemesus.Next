@@ -1,0 +1,42 @@
+@using IdentityServer4.Extensions
+@{
+    var user = await Context.GetIdentityServerUserAsync();
+    var name = user?.FindFirst("name")?.Value;
+}
+
+@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Ciemesus Authentication</title>
+
+    @Html.Raw(JavaScriptSnippet.FullScript)
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body>
+    <div>
+        <header class="Header">
+            @if (name != null)
+            {
+                <div class="Header-logout">Hello @name, <a asp-action="Logout" asp-controller="Account">logout</a>!</div>
+            }
+            else
+            {
+                <a asp-action="Login" asp-controller="Account" class="Header-login">Login</a>
+            }
+        </header>
+        <div class="Content">
+            @RenderBody()
+        </div>
+        <footer class="Footer">
+            <p>&copy; 2018 - FIKA APP</p>
+        </footer>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

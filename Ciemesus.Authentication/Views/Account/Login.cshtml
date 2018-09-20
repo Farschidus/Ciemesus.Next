@@ -1,0 +1,27 @@
+@model Ciemesus.Authentication.Models.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h2 class="PageTitle">Ciemesus</h2>
+
+<form asp-route="Login" class="Login">
+    <h2 class="Login-title">Login</h2>
+    <input type="hidden" asp-for="ReturnUrl" />
+    @Html.ValidationSummary(true, "", new { @class = "Login-generalValidation" })
+    <fieldset class="Login-email">
+        <input placeholder="Email" asp-for="Email" autofocus class="Login-input" />
+        <span asp-validation-for="Email" class="Login-inputValidation"></span>
+    </fieldset>
+    <fieldset class="Login-password">
+        <input placeholder="Password" asp-for="Password" autocomplete="off" class="Login-input" />
+        <span asp-validation-for="Password" class="Login-inputValidation"></span>
+    </fieldset>
+    <fieldset class="Login-rememberMe">
+        <label asp-for="RememberLogin" class="Login-rememberMeLabel"></label>
+        <input asp-for="RememberLogin" />
+    </fieldset>
+    <fieldset class="Login-submit">
+        <button class="Login-submitButton">Login</button>
+    </fieldset>
+</form>

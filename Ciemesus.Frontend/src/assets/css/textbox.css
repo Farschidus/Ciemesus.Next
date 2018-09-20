@@ -1,0 +1,40 @@
+
+.Textbox {
+    border-radius: 4px;
+    height: 60px;
+    padding: 22px;
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    background-color: transparent;
+    color: #FFF;
+    padding: 0 20px;
+    -webkit-appearance: none;
+    caret-color: #FFF;
+}
+
+.Textbox--primary {
+    background-color: #fecd01;
+    color: #006ba8;
+}
+
+.Textbox--secondary {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFF;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFF;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFF;
+}

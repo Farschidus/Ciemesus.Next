@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "body.css";
+@import "button.css";
+@import "menu.css";
+
+:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: '-apple-system','HelveticaNeue', 'Raleway', sans-serif;
+    background-color: #1e1e24;
+}
+
+@media(min-width: 1000px) {
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        color: #FFF;
+        font-family: 'Raleway', sans-serif;
+        background: #004065;
+    }
+}

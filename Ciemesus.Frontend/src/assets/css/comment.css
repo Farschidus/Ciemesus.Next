@@ -1,0 +1,75 @@
+
+.Comment {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Comment-body {
+    display: block;
+    background-color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    color: #000;
+    margin-left: 74px;
+    position: relative;
+    font-size: 13px;
+}
+
+    .Comment-body::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px 12px 0px 0;
+        border-color: transparent #ffffff transparent transparent;
+        position: absolute;
+        bottom: 14px;
+        left: -10px;
+    }
+
+.Comment-title {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.Comment-date {
+    margin-left: 4px;
+    font-size: 10px;
+}
+
+.Comment-comment {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.Comment-like {
+    display: block;
+    position: absolute;
+    right: 5px;
+    bottom: -16px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Comment-like--active {
+    color: #fecd01;
+}
+
+.Comment-profilePhoto {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 3px;
+    left: 31px;
+}

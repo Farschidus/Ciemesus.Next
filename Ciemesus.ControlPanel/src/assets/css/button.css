@@ -1,0 +1,47 @@
+
+.Button {
+    text-transform: uppercase;
+    border-radius: 4px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    color: #FFF;
+    text-decoration: none;
+    transition: all 300ms;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Button--primary {
+    font-weight: 700;
+    background-color: #fecd01;
+    color: #006ba8;
+}
+
+.Button--secondary {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.Button.is-animating {
+    border-radius: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: 4px solid #fecd01;
+}
+
+.Button.is-animated {
+    border-radius: 30px;
+    width: 60px;
+    border: none;
+    font-size: 11px;
+}
+
+.Button.with-animation {
+    border: 1px solid #fecd01;
+}

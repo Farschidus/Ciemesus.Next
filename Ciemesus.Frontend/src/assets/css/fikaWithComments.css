@@ -1,0 +1,127 @@
+
+.FikaWithComments {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.FikaWithComments::before {
+    content: '';
+    background-color: rgba(255,255,255,0.2);
+    width: 3px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    z-index: -1;
+}
+
+.FikaWithComments-date {
+    position: absolute;
+    top: -14px;
+    left: 4px;
+    text-align: right;
+    word-break: break-word;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.FikaWithComments-profilePhoto {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-position: center center;
+    background-size: cover;
+    background-clip: border-box;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 22px;
+    border: 2px solid #fff;
+    vertical-align: middle;
+}
+
+.FikaWithComments-personName {
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.FikaWithComments-stats {
+    float: right;
+    position: relative;
+    top: 14px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.FikaWithComments-addCommentWrapper {
+    display: block;
+    position: relative;
+    margin-left: 85px;
+    position: relative;
+    text-align: right;
+    margin-bottom: 6px;
+}
+
+.FikaWithComments-expandAddComment {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.FikaWithComments-addComment {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 76px;
+}
+
+.FikaWithComments-addComment--FullWidth {
+    margin-left: 0;
+}
+
+.FikaWithComments-addCommentTextbox {
+    padding: 8px 6px;
+    height: 36px;
+    border: 0;
+    width: 80%;
+    font-size: 13px;
+    box-sizing: border-box
+}
+
+.FikaWithComments-sendPhoto {
+    margin-left: 2px;
+    color: #004a75;
+    width: 20px
+}
+
+.FikaWithComments-sendComment {
+    color: #004a75;
+    float: right;
+    position: relative;
+    top: 9px;
+    right: 2px;
+}
+
+.FikaWithComments-imageSlider {
+    width: 100%;
+    height: 220px;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 6px;
+    margin-top: -10px;
+    box-sizing: border-box;
+}
+
+.Collapsed {
+    display: none;
+    opacity: 0;
+    height: 0;
+    transition: all 300ms ease-out;
+}
+
+.Expanded {
+    opacity: 1;
+    height: 36px;
+}

@@ -1,0 +1,16 @@
+
+.Link {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.RoutLink {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+    cursor: pointer;
+}

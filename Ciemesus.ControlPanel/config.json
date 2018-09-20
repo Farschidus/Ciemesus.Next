@@ -1,0 +1,16 @@
+{
+    "common": {
+        "identityServer": {
+            "clientId": "Ciemesus.SPA",
+            "clientSecret": "Elon Musk And His 4 Zebras Has A Love For Craft Beers Or Something"
+        }
+    },
+    "development": {
+        "apiBase": "http://localhost:58751/api/",
+        "authority": "http://localhost:58754/"
+    },
+    "production": {
+        "apiBase": "http://tournamentus.farschidus.com/api/",
+        "authority": "http://tournamentus.farschidus.com/auth/"
+    }
+}

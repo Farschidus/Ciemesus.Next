@@ -1,0 +1,52 @@
+.FikaWrapper {
+  border-radius: 10px;
+  box-shadow: 5.5px 5.5px 20px 0px rgba(0, 0, 0, 0.2);
+  height: 150px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  transition: 300ms ease-in-out all;
+  top:0;
+}
+
+.Fika {
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  position: relative;
+  font-size: 0.95em;
+  height: 100%;  
+  margin-bottom: 0px;  
+  width: 100%;
+  display: block;
+}
+
+/* .FikaWrapper.FikaWrapper-isActive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border-radius: 0px;
+  height: 180px;
+} */
+
+.Fika-person {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  font-weight: 600;
+}
+
+.Fika-title {
+  left: 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 106px;
+}
+
+.Fika-date {
+  left: 10px;
+  position: absolute;
+  top: 122px;
+}

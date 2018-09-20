@@ -1,0 +1,17 @@
+
+.u-centered {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.u-textRight {
+    text-align: right !important;
+}
+
+.u-block {
+    display: block !important;
+}
+
+.hidden {
+    display: none;
+}

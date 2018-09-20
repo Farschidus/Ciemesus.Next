@@ -1,0 +1,11 @@
+.Fikas {
+  width: 94%;
+  margin: 10px auto;
+}
+
+@media(min-width: 1000px) {
+    .Fikas {
+        width: 40%;
+        margin: 10px auto;
+    }
+}

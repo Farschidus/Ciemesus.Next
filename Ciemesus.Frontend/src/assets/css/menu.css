@@ -1,0 +1,36 @@
+.Menu {
+    background: linear-gradient(#004a75 0%, #004065 100%);
+    height: 12%;
+    font-family: 'Lineawesome';
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Menu-link {
+    cursor: pointer;
+    position: relative;
+    top:26px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+
+@media(min-width: 1000px) {
+    .Menu {
+        background: none;
+        max-width: 40%;
+        margin: 0 auto;
+        height: 12%;
+        font-family: 'Lineawesome';
+        font-size: 22px;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+    }
+}

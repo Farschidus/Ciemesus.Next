@@ -1,0 +1,67 @@
+
+.Scheduler {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Scheduler-item {
+    background-color: #00263c;
+    border-radius: 24px;
+    height: 56px;
+    width: 100%;
+    color: #FFF;
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.Scheduler-profilePhoto {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    background-size: cover;
+}
+
+.Scheduler-title {
+    position: absolute;
+    top: 15px;
+    left: 56px;
+}
+
+
+.Scheduler-personName {
+    position: absolute;
+    top: 31px;
+    left: 56px;
+}
+
+.Scheduler-dateTime {
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    text-align: right;
+    display: block;
+}
+
+.Scheduler-date {
+    display: block;
+    font-weight: 600;
+}
+
+.Scheduler-time {
+    display: block;
+}
+
+.Scheduler-details {
+
+}
