@@ -1,0 +1,110 @@
+<Project>
+    <PropertyGroup>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+	
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+    <PropertyGroup>
+        <BuildBundlerMinifierVersion>3.2.435</BuildBundlerMinifierVersion>
+        <CoverletMsBuildVersion>2.8.0</CoverletMsBuildVersion>
+        <dotMortenMicrosoftSqlServerTypesVersion>1.1.0</dotMortenMicrosoftSqlServerTypesVersion>
+		<DotNetReportGeneratorCliVersion>4.2.20</DotNetReportGeneratorCliVersion>
+		<DotNetXunitVersion>2.3.1</DotNetXunitVersion>
+        <FluentValidationVersion>8.6.2</FluentValidationVersion>
+        <FluentValidationAspNetCoreVersion>8.6.2</FluentValidationAspNetCoreVersion>
+		<FsCheckVersion>3.0.0-alpha4</FsCheckVersion>
+		<FsCheckXunitVersion>3.0.0-alpha4</FsCheckXunitVersion>
+        <GraphQLVersion>2.4.0</GraphQLVersion>
+        <GraphQLAuthorizationVersion>2.1.29</GraphQLAuthorizationVersion>
+		<GraphQLServerTransportsAspNetCore>3.4.0</GraphQLServerTransportsAspNetCore>
+		<GraphQLServerTransportsWebSockets>3.4.0</GraphQLServerTransportsWebSockets>
+        <IdentityModelVersion>4.1.1</IdentityModelVersion>
+        <IdentityServer4AccessTokenValidationVersion>3.0.1</IdentityServer4AccessTokenValidationVersion>
+        <IdentityServer4AspNetIdentityVersion>3.1.2</IdentityServer4AspNetIdentityVersion>
+        <IdentityServer4EntityFrameworkVersion>3.1.2</IdentityServer4EntityFrameworkVersion>
+        <IdentityServer4StorageVersion>3.1.2</IdentityServer4StorageVersion>
+        <IdentityServer4Version>3.1.2</IdentityServer4Version>
+        <MediatRVersion>8.0.1</MediatRVersion>
+        <MediatRExtensionsMicrosoftDependencyInjectionVersion>8.0.0</MediatRExtensionsMicrosoftDependencyInjectionVersion>
+        <MicrosoftAppCenterVersion>3.0.0</MicrosoftAppCenterVersion>
+        <MicrosoftApplicationInsightsAspNetCoreVersion>2.13.1</MicrosoftApplicationInsightsAspNetCoreVersion>
+		<MicrosoftAspNetCoreAppVersion>3.1.2</MicrosoftAspNetCoreAppVersion>
+        <MicrosoftAspNetCoreAuthenticationVersion>2.2.0</MicrosoftAspNetCoreAuthenticationVersion>
+        <MicrosoftAspNetCoreAuthenticationJwtBearerVersion>3.1.2</MicrosoftAspNetCoreAuthenticationJwtBearerVersion>
+		<MicrosoftAspNetCoreAuthenticationOpenIdConnect>3.1.2</MicrosoftAspNetCoreAuthenticationOpenIdConnect>
+		<MicrosoftAspNetCoreCryptographyInternal>3.1.2</MicrosoftAspNetCoreCryptographyInternal>
+        <MicrosoftAspNetCoreIdentityVersion>2.2.0</MicrosoftAspNetCoreIdentityVersion>
+        <MicrosoftAspNetCoreIdentityEntityFrameworkCoreVersion>3.1.2</MicrosoftAspNetCoreIdentityEntityFrameworkCoreVersion>
+        <MicrosoftAspNetCoreMvcNewtonsoftJsonVersion>3.1.2</MicrosoftAspNetCoreMvcNewtonsoftJsonVersion>
+        <MicrosoftAzureFunctionsExtensionsVersion>1.0.0</MicrosoftAzureFunctionsExtensionsVersion>
+        <MicrosoftAzureKeyVaultVersion>3.0.5</MicrosoftAzureKeyVaultVersion>
+        <MicrosoftAzureServiceBusVersion>4.1.1</MicrosoftAzureServiceBusVersion>
+        <MicrosoftAzureServicesAppAuthenticationVersion>1.4.0</MicrosoftAzureServicesAppAuthenticationVersion>
+        <MicrosoftAzureStorageDataMovementVersion>1.2.0</MicrosoftAzureStorageDataMovementVersion>
+        <MicrosoftAzureWebJobsVersion>3.0.14</MicrosoftAzureWebJobsVersion>
+		<MicrosoftAzureWebJobsExtensionsVersion>3.0.6</MicrosoftAzureWebJobsExtensionsVersion>
+		<MicrosoftAzureWebJobsExtensionsServiceBusVersion>4.1.0</MicrosoftAzureWebJobsExtensionsServiceBusVersion>
+		<MicrosoftAzureWebJobsExtensionsStorageVersion>3.0.10</MicrosoftAzureWebJobsExtensionsStorageVersion>
+		<MicrosoftAzureWebJobsLoggingApplicationInsightsVersion>3.0.14</MicrosoftAzureWebJobsLoggingApplicationInsightsVersion>
+		<MicrosoftAzureWebJobsServiceBusVersion>2.3.0</MicrosoftAzureWebJobsServiceBusVersion>
+		<MicrosoftCodeAnalysisVersion>3.4.0</MicrosoftCodeAnalysisVersion>
+        <MicrosoftCodeAnalysisFxCopAnalyzersVersion>2.9.8</MicrosoftCodeAnalysisFxCopAnalyzersVersion>
+		<MicrosoftCodeCoverageVersion>16.5.0</MicrosoftCodeCoverageVersion>
+        <MicrosoftEntityFrameworkCoreVersion>3.1.2</MicrosoftEntityFrameworkCoreVersion>
+        <MicrosoftEntityFrameworkCoreSqlServerVersion>3.1.2</MicrosoftEntityFrameworkCoreSqlServerVersion>
+        <MicrosoftExtensionsConfigurationVersion>3.1.2</MicrosoftExtensionsConfigurationVersion>
+        <MicrosoftExtensionsConfigurationAbstractionsVersion>3.1.2</MicrosoftExtensionsConfigurationAbstractionsVersion>
+        <MicrosoftExtensionsDependencyInjectionVersion>3.1.2</MicrosoftExtensionsDependencyInjectionVersion>
+        <MicrosoftExtensionsDependencyInjectionAbstractionsVersion>3.1.3</MicrosoftExtensionsDependencyInjectionAbstractionsVersion>
+		<MicrosoftExtensionsConfigurationAzureKeyVaultVersion>3.1.2</MicrosoftExtensionsConfigurationAzureKeyVaultVersion>
+        <MicrosoftExtensionsHttpVersion>3.1.2</MicrosoftExtensionsHttpVersion>
+        <MicrosoftExtensionsLoggingVersion>3.1.2</MicrosoftExtensionsLoggingVersion>
+		<MicrosoftExtensionsLoggingConsoleVersion>3.1.2</MicrosoftExtensionsLoggingConsoleVersion>
+        <MicrosoftExtensionsLoggingDebugVersion>3.1.2</MicrosoftExtensionsLoggingDebugVersion>
+		<MicrosoftNETSdkFunctionsVersion>3.0.1</MicrosoftNETSdkFunctionsVersion>
+		<MicrosoftNETTestSdkVersion>16.5.0</MicrosoftNETTestSdkVersion>
+        <MicrosoftPowerBIApiVersion>2.11.0</MicrosoftPowerBIApiVersion>
+        <MicrosoftRestClientRuntimeAzureVersion>3.3.19</MicrosoftRestClientRuntimeAzureVersion>
+        <MockQueryableMoqVersion>3.1.1</MockQueryableMoqVersion>
+        <NewtonsoftJsonVersion>12.0.3</NewtonsoftJsonVersion>
+        <NodaTimeVersion>2.4.7</NodaTimeVersion>
+		<OdeToCodeAddFeatureFolders>2.0.3</OdeToCodeAddFeatureFolders>
+		<ReportGeneratorVersion>4.5.0</ReportGeneratorVersion>
+        <SendgridVersion>9.12.7</SendgridVersion>
+        <ShouldlyVersion>3.0.2</ShouldlyVersion>
+        <SixLaborsImageSharpVersion>1.0.0-beta0007</SixLaborsImageSharpVersion>
+        <StructureMapAspNetCoreVersion>2.0.0</StructureMapAspNetCoreVersion>
+        <StructureMapMicrosoftDependencyInjectionVersion>2.0.0</StructureMapMicrosoftDependencyInjectionVersion>
+        <StyleCopAnalyzersVersion>1.1.118</StyleCopAnalyzersVersion>
+        <SwashbuckleAspNetCoreVersion>5.0.0</SwashbuckleAspNetCoreVersion>
+        <TimeZoneConverterVersion>3.2.0</TimeZoneConverterVersion>
+        <WindowsAzureStorageVersion>9.3.3</WindowsAzureStorageVersion>
+		<XunitVersion>2.4.1</XunitVersion>
+		<XunitRunnerVisualStudioVersion>2.4.1</XunitRunnerVisualStudioVersion>
+		<XunitXmlTestLoggerVersion>2.1.26</XunitXmlTestLoggerVersion>
+    </PropertyGroup>
+	
+	<PropertyGroup>
+		<CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)Ciemesus.NetCore.CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" Link="stylecop.json" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.CodeAnalysis" Version="3.4.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>
