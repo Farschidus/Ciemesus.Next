@@ -137,7 +137,6 @@
     <Build Include="dbo\Tables\SchemaVersions.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="build.publish.xml" />
     <None Include="dbo\Tables\System Data\AddApplications.sql" />
     <None Include="dbo\Tables\System Data\AddApplicationRoles.sql" />
     <None Include="dbo\Tables\System Data\AddTimezones.sql" />
