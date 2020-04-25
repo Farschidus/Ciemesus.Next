@@ -131,7 +131,6 @@
     <Build Include="dbo\Tables\ApplicationRoles.sql" />
     <Build Include="dbo\Tables\UserApplicationRoles.sql" />
     <Build Include="dbo\Tables\Timezones.sql" />
-    <Build Include="dbo\Tables\Calendar.sql" />
     <Build Include="Security\CiemesusOwnerRole.sql" />
     <Build Include="Security\CiemesusOwnerLogin.sql" />
     <Build Include="Security\CiemesusOwnerUser.sql" />
@@ -142,7 +141,6 @@
     <None Include="dbo\Tables\System Data\AddApplications.sql" />
     <None Include="dbo\Tables\System Data\AddApplicationRoles.sql" />
     <None Include="dbo\Tables\System Data\AddTimezones.sql" />
-    <None Include="dbo\Tables\System Data\AddCalendar.sql" />
     <None Include="localhost.publish.xml" />
   </ItemGroup>
   <ItemGroup>

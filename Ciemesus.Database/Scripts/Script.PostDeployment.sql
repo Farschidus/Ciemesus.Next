@@ -11,7 +11,6 @@ Post-Deployment Script Template
 */
 
 /* Add System Data */
-:r "..\dbo\Tables\System Data\AddCalendar.sql"
 :r "..\dbo\Tables\System Data\AddApplications.sql"
 :r "..\dbo\Tables\System Data\AddApplicationRoles.sql"
 :r "..\dbo\Tables\System Data\AddTimezones.sql"
