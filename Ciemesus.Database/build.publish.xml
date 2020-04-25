@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseName>easycube-db-pine</TargetDatabaseName>
+    <DeployScriptFileName>EasyCube.Database.sql</DeployScriptFileName>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+    <TargetConnectionString>Data Source=easycube-sql-build.database.windows.net;Persist Security Info=True;User ID=sqladministrator;Password=4}2o*FJ#VFiaWayd(MGjvu4WPW3M;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=True;TrustServerCertificate=False</TargetConnectionString>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <AllowIncompatiblePlatform>True</AllowIncompatiblePlatform>
+    <CreateNewDatabase>True</CreateNewDatabase>
+  </PropertyGroup>
+</Project>
